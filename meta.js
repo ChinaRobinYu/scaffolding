@@ -42,22 +42,22 @@ module.exports = {
 			]
 		},
 		"WXShare":{
-				"when": "proType === 'mobile'",
-				"type": "confirm",
-				"message": "Import Weixin JS-SDK for your project?"
+			"when": "proType === 'mobile'",
+			"type": "confirm",
+			"message": "Import Weixin JS-SDK for your project?"
 		},
 		"Moblink":{
-				"when": "proType === 'mobile'",
-				"type": "confirm",
-				"message": "Import Moblink.js for your project?"
+			"when": "proType === 'mobile'",
+			"type": "confirm",
+			"message": "Import Moblink.js for your project?"
 		},
 		"VueLazyload":{
-				"type": "confirm",
-				"message": "Install VueLazyload?"
+			"type": "confirm",
+			"message": "Install VueLazyload?"
 		},
 		"fundebug":{
-				"type": "confirm",
-				"message": "Install fundebug to monitor javascript?"
+			"type": "confirm",
+			"message": "Install fundebug to monitor javascript?"
 		}
 	},
 	"filters": {
