@@ -77,5 +77,5 @@ module.exports = {
 		"src/components/HelloWorld.vue": "proType === 'mobile'",
 		"src/assets/images/lazyload/*": "VueLazyload"
 	},
-	"completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/ztjy-fe/scaffolding"
+	"completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/ztjy-fe/scaffolding"
 };
